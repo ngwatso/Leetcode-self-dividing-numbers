@@ -6,8 +6,6 @@ def selfDividingNumbers(left, right):
         for x in range(left, right + 1):
             num = str(x)
             for d in num:
-                # if num.index(d) != num[0] and num.count(d) > 1:
-                #   newNum += d
                 if d == "0":
                     newNum = ""
                     continue
